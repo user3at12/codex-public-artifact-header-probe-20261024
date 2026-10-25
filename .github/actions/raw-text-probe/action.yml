@@ -1,0 +1,5 @@
+name: Raw text artifact response probe
+description: Upload a JSON payload as a direct text artifact and report REST response metadata
+runs:
+  using: node24
+  main: index.cjs
